@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Submit Breakdown - Vehicle Breakdown Assistance System</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Vehicle Breakdown Assistance System</h1>
+    <nav>
+      <ul>
+        <li><a href="/dashboard">Dashboard</a></li>
+        <li><a href="/submit-breakdown">Submit Breakdown</a></li>
+        <li><a href="/logout">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Submit Breakdown</h2>
+    <form id="breakdown-form">
+      <label for="vehicle-number">Vehicle Number:</label>
+      <input type="text" id="vehicle-number" required>
+      
+      <label for="breakdown-location">Breakdown Location:</label>
+      <input type="text" id="breakdown-location" required>
+      
+      <label for="description">Description of Breakdown:</label>
+      <textarea id="description" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2023 Vehicle Breakdown Assistance System</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
